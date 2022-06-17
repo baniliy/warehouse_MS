@@ -1,0 +1,16 @@
+D:\Assignment Materials\JavaWeb\warehouse_MS\src\main\java\com\baniliy\bean\User.java
+D:\Assignment Materials\JavaWeb\warehouse_MS\src\main\java\com\baniliy\service\UserManageService.java
+D:\Assignment Materials\JavaWeb\warehouse_MS\src\main\java\com\baniliy\service\LoginService.java
+D:\Assignment Materials\JavaWeb\warehouse_MS\src\main\java\com\baniliy\service\MaterialService.java
+D:\Assignment Materials\JavaWeb\warehouse_MS\src\main\java\com\baniliy\service\RegisterService.java
+D:\Assignment Materials\JavaWeb\warehouse_MS\src\main\java\com\baniliy\servlet\MaterialServlet.java
+D:\Assignment Materials\JavaWeb\warehouse_MS\src\main\java\com\baniliy\utils\DBUtils1.java
+D:\Assignment Materials\JavaWeb\warehouse_MS\src\main\java\com\baniliy\bean\Material.java
+D:\Assignment Materials\JavaWeb\warehouse_MS\src\main\java\com\baniliy\dao\UserDao.java
+D:\Assignment Materials\JavaWeb\warehouse_MS\src\main\java\com\baniliy\dao\MaterialDao.java
+D:\Assignment Materials\JavaWeb\warehouse_MS\src\main\java\com\baniliy\servlet\LogoutServlet.java
+D:\Assignment Materials\JavaWeb\warehouse_MS\src\main\java\com\baniliy\servlet\ProductServlet.java
+D:\Assignment Materials\JavaWeb\warehouse_MS\src\main\java\com\baniliy\servlet\BaseServlet.java
+D:\Assignment Materials\JavaWeb\warehouse_MS\src\main\java\com\baniliy\servlet\LoginServlet.java
+D:\Assignment Materials\JavaWeb\warehouse_MS\src\main\java\com\baniliy\servlet\UserServlet.java
+D:\Assignment Materials\JavaWeb\warehouse_MS\src\main\java\com\baniliy\servlet\RegisterServlet.java

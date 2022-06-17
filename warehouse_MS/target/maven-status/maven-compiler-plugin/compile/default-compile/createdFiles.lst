@@ -1,0 +1,16 @@
+com\baniliy\service\UserManageService.class
+com\baniliy\service\LoginService.class
+com\baniliy\servlet\BaseServlet.class
+com\baniliy\service\RegisterService.class
+com\baniliy\utils\DBUtils1.class
+com\baniliy\service\MaterialService.class
+com\baniliy\servlet\LogoutServlet.class
+com\baniliy\bean\Material.class
+com\baniliy\servlet\UserServlet.class
+com\baniliy\servlet\LoginServlet.class
+com\baniliy\dao\MaterialDao.class
+com\baniliy\servlet\RegisterServlet.class
+com\baniliy\servlet\ProductServlet.class
+com\baniliy\bean\User.class
+com\baniliy\servlet\MaterialServlet.class
+com\baniliy\dao\UserDao.class

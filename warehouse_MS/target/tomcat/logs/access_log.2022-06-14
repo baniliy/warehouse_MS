@@ -1,0 +1,5 @@
+0:0:0:0:0:0:0:1 - - [14/Jun/2022:09:57:56 +0800] "GET / HTTP/1.1" 200 414 http-bio-80-exec-2 333
+0:0:0:0:0:0:0:1 - - [14/Jun/2022:09:57:57 +0800] "GET /favicon.ico HTTP/1.1" 404 973 http-bio-80-exec-3 3
+0:0:0:0:0:0:0:1 - - [14/Jun/2022:09:57:59 +0800] "POST /loginServlet HTTP/1.1" 200 3577 http-bio-80-exec-4 1676
+0:0:0:0:0:0:0:1 - - [14/Jun/2022:09:57:59 +0800] "GET /css/manage.css HTTP/1.1" 304 - http-bio-80-exec-5 16
+0:0:0:0:0:0:0:1 - - [14/Jun/2022:09:58:00 +0800] "GET /material/selectAll HTTP/1.1" 200 11628 http-bio-80-exec-6 23
