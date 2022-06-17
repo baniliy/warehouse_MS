@@ -129,7 +129,7 @@ user.status 0	管理员
 user.status 1	职员	用户管理功能关闭
 ```
 
-![jsp主框架](C:\Users\23858\Desktop\warehouse_MS图集\jsp主框架.png)
+![jsp主框架](.\warehouse_MS图集\jsp主框架.png)
 
 **分页查询**
 
@@ -160,7 +160,7 @@ user.status 1	职员	用户管理功能关闭
 </div>
 ```
 
-![分页列表](C:\Users\23858\Desktop\warehouse_MS图集\分页列表.png)
+![分页列表](.\warehouse_MS图集\分页列表.png)
 
 
 
@@ -386,11 +386,11 @@ public class BaseServlet extends HttpServlet {
 2. 在连接池配置文件(utils/DBUtils1)，添加筛选规则dataSource.setFilters("stat");
 3. 启动项目后，即可根据localhost/druid/index.html访问到Druid监控页面，如下如图所示
 
-![image-20220615104959881](C:\Users\23858\AppData\Roaming\Typora\typora-user-images\image-20220615104959881.png)
+![image-20220615104959881](.\warehouse_MS图集\image-20220615104959881.png)
 
 4. 查看数据源选项，如下图所示可以发现，当项目内数据库请求次数达到峰值(预设20)处于无响应状态，由监控数据可以发现执行20次后既达到峰值连接池内不产生逻辑销毁导致连接池内一直处于峰值状态，导致数据库请求无响应。
 
-![image-20220615105501440](C:\Users\23858\AppData\Roaming\Typora\typora-user-images\image-20220615105501440.png)
+![image-20220615105501440](.\warehouse_MS图集\image-20220615105501440.png)
 
 5. 根据官方文档内的参数配置详解，可以通过指定一系列的逻辑销毁规则使一些请求完成的连接销毁释放资源，从而解决问题。相关连接池配置文件(utils/DBUtils1)如下
 
@@ -407,4 +407,4 @@ dataSource.setRemoveAbandonedTimeout(5);
 
 6. 配置后的结果，可以发现在项目运行的过程中，连接池根据规则自动会产生逻辑销毁释放资源从而解决了以上问题。
 
-![image-20220615110642684](C:\Users\23858\AppData\Roaming\Typora\typora-user-images\image-20220615110642684.png)
+![image-20220615110642684](.\warehouse_MS图集\image-20220615110642684.png)
